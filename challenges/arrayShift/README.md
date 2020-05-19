@@ -1,3 +1,5 @@
+Pull Request: https://github.com/401-advanced-javascript-tommalieh/data-structures-and-algorithms/pull/2
+
 # Insert Shift Array
 The function should take an array and an element as inputs and return the array with the element added in the middle.
 
