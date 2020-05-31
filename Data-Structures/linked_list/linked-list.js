@@ -5,9 +5,10 @@ const Node = require('./node');
 class LinkedList {
     constructor (){
         this.head = null;
+        this.tail = null;
     }
 
-    insert (value){
+    append (value){
         const node = new Node(value);
         if (!this.head) {
             this.head = node;
@@ -17,7 +18,9 @@ class LinkedList {
         while (currentNode.next){
             currentNode = currentNode.next;
         }
+        node.previous = currentNode;
         currentNode.next = node;
+        this.tail = node;
         return this;
     }
 
@@ -52,6 +55,38 @@ class LinkedList {
         return string;
 
 
+    }
+
+    insertBefore(value, newVal){
+        const node = new Node(newVal);
+        if (!this.head) {
+            this.head = node;
+            return this;
+        }
+        let currentNode = this.head;
+        while (currentNode.next && currentNode.next.value !== value){
+            currentNode = currentNode.next;
+        }
+        node.next = currentNode.next;
+        currentNode.next = node;
+        return this;
+    }
+
+    insertAfter(value, newVal){
+        const node = new Node(newVal);
+        if (!this.head) {
+            this.head = node;
+            return this;
+        }
+        let currentNode = this.tail;
+        while (currentNode.previous && currentNode.previous.value !== value){
+            currentNode = currentNode.previous;
+        }
+        node.previous = currentNode.previous;
+        node.next = currentNode;
+        currentNode.previous.next = node;
+        currentNode.previous = node;
+        return this;
     }
 }
 
