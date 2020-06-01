@@ -1,4 +1,4 @@
-Pull Request: https://github.com/401-advanced-javascript-tommalieh/data-structures-and-algorithms/pull/7
+Pull Request: https://github.com/401-advanced-javascript-tommalieh/data-structures-and-algorithms/pull/8
 
 # Linked List
 Create a linked list class that's able to create, add, list and search for node/nodes.
@@ -22,6 +22,8 @@ Deciding the value of the current node each time.
 
 7- Add an insertBefore() method that add a new node after a node with a certain value.
 
+8- Add an kthFromEnd() method that will take an index and look for the node with the same index and return it's value.
+
 ## API
 
 1. `append()` - Adding a new node to the linked list.
@@ -33,3 +35,5 @@ Deciding the value of the current node each time.
 4. `insertBefore` - Add a new node before a node with a certain value.
 
 5. `insertAfter` - Add a new node after a node with a certain value.
+
+6. `kthFromEnd` - Take an index and look for the node with the same index and return it's value
