@@ -1,4 +1,4 @@
-Pull Request: https://github.com/401-advanced-javascript-tommalieh/data-structures-and-algorithms/pull/8
+Pull Request: https://github.com/401-advanced-javascript-tommalieh/data-structures-and-algorithms/pull/9
 
 # Linked List
 Create a linked list class that's able to create, add, list and search for node/nodes.
