@@ -48,7 +48,7 @@ class LinkedList {
     let currentNode = this.head;
     let string = '';
     while (currentNode){
-      string = string + `{${currentNode.value}} -> `;
+      string = string + `{ ${currentNode.value} } -> `;
       currentNode = currentNode.next;
     }
     string = string + 'NULL';
