@@ -17,7 +17,7 @@ class Stack {
         const newNode = new Node(nodeValue);
         newNode.next = this.stackSpace[0];
         this.stackSpace.unshift(newNode);
-        this.top = stackSpace[0];
+        this.top = this.stackSpace[0];
     }
 
     pop() {
