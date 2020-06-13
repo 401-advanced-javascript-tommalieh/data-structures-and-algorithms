@@ -1,7 +1,7 @@
 # Pull Request URL
 Pull Request: https://github.com/401-advanced-javascript-tommalieh/data-structures-and-algorithms/pull/15
 
-# Animal Shelter
+# Trees
 Create a class called BinaryTree than can traverse a binary tree using the three depth first methods.
 
 ## Challenge
