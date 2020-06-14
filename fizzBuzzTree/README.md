@@ -1,5 +1,5 @@
 # Pull Request URL
-Pull Request: https://github.com/401-advanced-javascript-tommalieh/data-structures-and-algorithms/pull/17
+Pull Request: https://github.com/401-advanced-javascript-tommalieh/data-structures-and-algorithms/pull/16
 
 # Fizz-Buzz Tree
 * Write a function called FizzBuzzTree which takes a tree as an argument. Determine whether or not the value of each node is divisible by 3, 5 or both. * * Create a new tree with the same structure as the original, but the values modified as follows:
