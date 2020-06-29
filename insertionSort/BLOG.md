@@ -14,6 +14,6 @@ The 4th pass through on the array proves that 16 is the next smallest number in 
 The 5th pass through of the array only has one other index to evaluate. Since the last index value is larger than index 4, the two values will swap.
 
 ## Step 6
-On its final iteratation through the array, it will swap places with itself as it evaluates the value against itself.
+On its final iteratation through the array, it will swap places with itself.
 
 ![picture](cc26.png)
