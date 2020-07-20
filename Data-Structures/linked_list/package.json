@@ -157,7 +157,7 @@
     "locate-path": "^5.0.0",
     "lodash.sortby": "^4.7.0",
     "lines-and-columns": "^1.1.6",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "make-dir": "^3.1.0",
     "map-cache": "^0.2.2",
     "merge-stream": "^2.0.0",
