@@ -204,7 +204,7 @@
     "prelude-ls": "^1.1.2",
     "prompts": "^2.3.2",
     "punycode": "^2.1.1",
-    "qs": "^6.5.2",
+    "qs": "^6.5.3",
     "regex-not": "^1.0.2",
     "react-is": "^16.13.1",
     "repeat-string": "^1.6.1",
